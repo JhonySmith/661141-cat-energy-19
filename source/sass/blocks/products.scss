@@ -1,0 +1,17 @@
+.produscts__list {
+  list-style-type: none;
+}
+
+.products__title {
+  @include font-param($font-size: 16px);
+  text-transform: uppercase;
+}
+
+.products__table-description {
+  @include font-param($font-family: $Arial, $font-size: 12px);
+}
+
+.products__show-more-button {
+  background-color: $buttons-color-gray;
+  color: $dark-text-color;
+}

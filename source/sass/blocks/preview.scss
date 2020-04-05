@@ -1,0 +1,46 @@
+.preview {
+  background-image:
+    url("../img/index-background-mobile@1x.jpg"),
+    linear-gradient($main-bg-color 305px, white 305px);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: $main-bg-color;
+}
+
+.preview__slogan {
+  @include font-param($font-size: 36px);
+}
+
+.preview__intro {
+  @include font-param();
+  text-transform: uppercase;
+}
+
+.preview__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.preview__services-list {
+  list-style-type: none;
+}
+
+.preview__services-item {
+  background-color: $gray-bg-color;
+}
+
+.preview__item-header {
+  @include font-param($font-size: 24px);
+  text-transform: uppercase;
+}
+
+.preview__item-description {
+  @include font-param($font-family: $Arial);
+}
+
+.preview__item-link {
+  @include font-param($font-size: 16px);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $main-text-color;
+}
