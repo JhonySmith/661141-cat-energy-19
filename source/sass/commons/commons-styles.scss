@@ -1,0 +1,38 @@
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+
+  background-color: $light-bg-color;
+}
+
+.button {
+  display: block;
+  border: none;
+
+  @include font-param($font-size: 16px);
+  text-transform: uppercase;
+  text-align: center;
+  color: $light-text-color;
+
+  background-color: $buttons-color-main;
+
+  cursor: pointer;
+}
+
+.section-title {
+  @include font-param($font-size: 36px);
+}
