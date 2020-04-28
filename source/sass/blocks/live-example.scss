@@ -1,0 +1,24 @@
+.live-example {
+  background-color: $gray-bg-color;
+}
+
+.live-example__indicators-list {
+  list-style-type: none;
+}
+
+.live-example__text {
+  @include font-param($font-family: $Arial);
+}
+
+.live-example__indicator {
+  @include font-param($font-size: 24px);
+}
+
+.live-example__indicators-comment {
+  @include font-param($font-size: 12px, $font-family: $Arial);
+}
+
+.live-example__cost {
+  @include font-param();
+  text-transform: uppercase;
+}

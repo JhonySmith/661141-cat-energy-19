@@ -1,0 +1,19 @@
+.additional-goods__list {
+  list-style-type: none;
+}
+
+.additional-goods__item-title {
+  @include font-param($font-size: 16px);
+  text-transform: uppercase;
+}
+
+.additional-goods__parametr {
+  @include font-param($font-family: $Arial);
+}
+
+.additional-goods__bonus {
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $main-bg-color;
+}
